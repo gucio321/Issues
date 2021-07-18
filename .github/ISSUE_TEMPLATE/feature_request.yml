@@ -1,0 +1,22 @@
+name: Feature request
+description: Suggest an idea for this project
+title: "[feature]: "
+labels:
+  - feature request
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this request!
+  - type: checkboxes
+    attributes:
+      label: Please ensure, you completed the following steps
+      options:
+        - label: I searched for the similar issue.
+  - type: textarea
+    attributes:
+      label: Describtion
+      placeholder: Describe the feature you'd like to be added.
+    validations:
+      required: true
